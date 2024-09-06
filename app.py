@@ -97,7 +97,7 @@ y2 = df2["Outcomes"]
 x2_train, x2_test, y2_train, y2_test = train_test_split(x2, y2, test_size=0.2, random_state=0)
 
 # Sidebar with user input using a form
-st.title("Your Details")
+st.title("Predict the Chance of Diabetes Based on Previous Generation Details")
 with st.form(key='user_form'):
     father_diabetes = st.radio("Your Mother or Father Has Diabetes", ["Yes", "No"])
     mother_diabetes = st.radio("Your Mother Has Diabetes", ["Yes", "No"])
