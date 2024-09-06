@@ -29,7 +29,7 @@ def set_white_background():
     st.markdown(background_color, unsafe_allow_html=True)
 
 # Load the dataset
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("diabitics-model/dataset.csv")
 
 # Set the background color
 set_white_background()
@@ -101,7 +101,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
-df1 = pd.read_csv("chancess.csv")
+df1 = pd.read_csv("diabitics-model/chancess.csv")
 
 # Streamlit app
 st.title("Diabetes Checkup")
